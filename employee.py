@@ -1,11 +1,13 @@
 """Employee pay calculator."""
-"""ENTER YOUR SOLUTION HERE!"""
+from abc import abstractmethod
 
+"""ENTER YOUR SOLUTION HERE!"""
 
 class Employee:
     def __init__(self, name):
         self.name = name
 
+    @abstractmethod
     def get_pay(self):
         pass
 
